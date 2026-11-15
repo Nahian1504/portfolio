@@ -2,8 +2,9 @@
 
 A personal portfolio site built with React, Vite, and React Router, showcasing my background in machine learning, statistical modeling, and data analysis.
 
-**Live site:** https://[Nahian1504].github.io/portfolio/
-**Repository:** https://github.com/[Nahian1504]/portfolio
+**Live site:** https://Nahian1504.github.io/portfolio/
+
+**Repository:** https://github.com/Nahian1504/portfolio
 
 ## Tech stack
 
@@ -41,13 +42,18 @@ src/
 
 ## Running locally
 
+```
 npm install
 npm run dev
+```
 
 ## Building and deploying
 
-npm run build 
-npm run preview 
+```
+npm run build
+npm run preview
+```
+
 Deployment to GitHub Pages is automated: every push to `main` triggers `.github/workflows/deploy.yml`, which builds the site and publishes `dist/` via GitHub Actions.
 
 ## Notes
